@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Felix Tilting';
+  src: url('web-page-3/fonts/Felix-Tilting.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Felix Tilting', Arial, sans-serif;
+  color: black;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+  color: #33475b;
+  text-align: center;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+
+}
+
+h1 {
+  font-family: 'Kind Regards', Arial, sans-serif;
+  text-align: center;
+  color: #ede3df;
+}
+
+h2 {
+  font-family: 'Felix Tilting', sans-serif;
+  text-align: center;
+  color: #ede3df;
+}
+
+p {
+  font-family: 'Calibri Light', sans-serif;
+  text-align: left;
+  color: #000000;
+}
+
+.container {
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav ul li img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 30px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Felix Tilting', 'Times New Roman', serif;
+}
+
+nav ul li a:hover {
+  background-color: #ede3df;
+  color: black;
+}
